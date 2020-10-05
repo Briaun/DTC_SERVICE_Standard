@@ -171,7 +171,7 @@ describe('DTC_Service_Standard', function() {
    it('Test getRealtimeData191', function() {
       cy.request({
          method : 'POST',
-         url : 'https://gps.dtc.co.th:8099/getRealtimeData191',
+         url : 'http://gps.dtc.co.th:8099/getRealtimeData191',
          body: {
            "api_token_key" : "HP1T2SK8ZA7NLFEQ2CNRBYGMZJ8F1EVMSPA64YTUDRH95B7WK3XD9JQ5LX3VUGW4",
            "gps_list" : ["102651322123"]
