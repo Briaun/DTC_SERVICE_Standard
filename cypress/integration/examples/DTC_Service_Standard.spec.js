@@ -148,7 +148,7 @@ describe('DTC_Service_Standard', function() {
    it('Test getDLTReport', function() {
       cy.request({
          method : 'POST',
-         url : 'https://gps.dtc.co.th:8099/getDLTReport',
+         url : 'http://gps.dtc.co.th:8099/getDLTReport',
          body: {
            "api_token_key" : "HP1T2SK8ZA7NLFEQ2CNRBYGMZJ8F1EVMSPA64YTUDRH95B7WK3XD9JQ5LX3VUGW4",
            "gps_list" : [],
