@@ -68,8 +68,8 @@ describe('DTC_Service_Standard 191', function() {
          body: {
            "api_token_key" : "HP1T2SK8ZA7NLFEQ2CNRBYGMZJ8F1EVMSPA64YTUDRH95B7WK3XD9JQ5LX3VUGW4",
            "gps_id" : "102651321122",
-           "start_period" : "2020-09-10 00:00:00",
-           "end_period" : "2020-09-10 11:00:00"
+           "start_period" : "2020-10-26 00:00:00",
+           "end_period" : "2020-10-26 11:00:00"
          },
          headers: {
             'content-type' : 'application/json'
@@ -261,8 +261,8 @@ describe('DTC_Service_Standard 191', function() {
         body: {
           "api_token_key" : "HP1T2SK8ZA7NLFEQ2CNRBYGMZJ8F1EVMSPA64YTUDRH95B7WK3XD9JQ5LX3VUGW4",
           "gps_id" : "102651321122",
-          "start_period" : "2020-09-10 00:00:00",
-          "end_period" : "2020-09-10 11:00:00"
+          "start_period" : "2020-10-26 00:00:00",
+          "end_period" : "2020-10-26 11:00:00"
         },
         headers: {
            'content-type' : 'application/json'
@@ -453,8 +453,8 @@ describe('DTC_Service_Standard 103', function() {
         body: {
           "api_token_key" : "HP1T2SK8ZA7NLFEQ2CNRBYGMZJ8F1EVMSPA64YTUDRH95B7WK3XD9JQ5LX3VUGW4",
           "gps_id" : "102651321122",
-          "start_period" : "2020-09-10 00:00:00",
-          "end_period" : "2020-09-10 11:00:00"
+          "start_period" : "2020-10-26 00:00:00",
+          "end_period" : "2020-10-26 11:00:00"
         },
         headers: {
            'content-type' : 'application/json'
